@@ -13,6 +13,7 @@ namespace GitDemo.Pages
         public void OnGet()
         {
             Message = "Your contact page.";
+            Thread.Sleep(5000);
         }
     }
 }

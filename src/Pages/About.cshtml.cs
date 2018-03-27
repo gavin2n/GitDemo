@@ -13,6 +13,7 @@ namespace GitDemo.Pages
         public void OnGet()
         {
             Message = "Your application description page.";
+            throw new Exception();
         }
     }
 }
